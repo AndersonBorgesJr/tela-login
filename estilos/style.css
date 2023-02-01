@@ -64,3 +64,39 @@ main{
 #formulario > p{
     font-size: 0.8em;
 }
+
+.botaoent{
+    display: block;
+    background-color: #ffd700;
+    border-radius: 5px;
+    border:none;
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.botaoent:hover{
+    background-color: #403600;
+    color: white;
+}
+
+.botaoesq {
+    display: block;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    font-size: 1em;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.botaoesq:hover {
+    background-color: #ffd700;
+}
