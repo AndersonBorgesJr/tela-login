@@ -34,7 +34,7 @@ main{
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
 
@@ -54,6 +54,35 @@ main{
     display: block;
     padding: 10px;
 
+}
+
+.campo{
+    background-color:#403600c0 ;
+    border: 2px solid #403600c0 ;
+    height: 32px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.campo > span{
+    color: white;
+    width:40px;
+    font-size: 2em;
+    padding-left: 5px;  
+}
+
+.campo > input{
+    background-color: #faf2c5;
+    font-size: 1em;
+    border: none;
+    width: calc(100% - 44.5px);
+    height: 100%;
+    border-radius: 5px;
+    transform: translateY(-12px);
+}
+
+.campo > input:focus-within{
+    background-color: white;
 }
 
 #formulario > h1{
